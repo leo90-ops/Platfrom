@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Js Platfrom</title>
+</head>
+<body>
+    <header>
+        <img src="Barca chilGuy.jpg"alt="Foto Profil">
+        <h1>Lionel Messi Mambrasar</h1>
+        <h2>235314083</h2>
+    </header>
+    <center>
+        <div class="container">
+            <label for="nama">Nama :</label>
+            <input type="text" id="nama" placeholder="Masukkan Nama"><br>
+
+            <label for="jumlah">Jumlah Pilihan :</label>
+            <input type="number" id="jumlah" placeholder="Masukkan Jumlah" min="1"><br>
+
+            <button onclick="prosesData()">OK</button>
+
+            <div id="inputContainer"></div>
+        </div>
+
+        <div id="hasilContainer" class="hasil-container"></div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
